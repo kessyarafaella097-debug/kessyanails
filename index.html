@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kessya Nails — Nail Art exclusiva, manicure em gel, unhas acrílicas e muito mais. Agende seu horário!" />
+  <meta property="og:title" content="Kessya Nails — Arte nas Suas Unhas" />
+  <meta property="og:description" content="Nail art exclusiva e manicure profissional. Mais de 500 clientes satisfeitas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kessyanails.com.br" />
+  <meta property="og:image" content="https://kessyanails.com.br/og-image.jpg" />
+  <link rel="canonical" href="https://kessyanails.com.br" />
+  <title>Kessya Nails — Arte nas Suas Unhas</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======================== LOADING SCREEN ======================== -->
+  <div id="loading-screen" aria-hidden="true">
+    <div class="loading-content">
+      <div class="loading-logo">Kessya Nails</div>
+      <div class="loading-bar"><div class="loading-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ======================== NAVBAR ======================== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Navegação principal">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Kessya Nails</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-neon-pulse" href="#agendamento">
+              <i class="fas fa-calendar-check me-1"></i> Agendar Agora
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <section id="inicio" class="hero-section">
+    <div class="hero-bg-overlay"></div>
+    <div class="particles" aria-hidden="true">
+      <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+      <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+      <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+      <span class="particle"></span><span class="particle"></span><span class="particle"></span>
+    </div>
+    <div class="container hero-content text-center">
+      <div class="hero-badge mb-4">★ +500 clientes satisfeitas</div>
+      <h1 class="hero-title glitch" data-text="Arte nas Suas Unhas">Arte nas Suas Unhas</h1>
+      <p class="hero-subtitle">Transformamos suas unhas em obras de arte. Exclusividade, estilo e muito brilho em cada detalhe.</p>
+      <div class="hero-btns d-flex justify-content-center gap-3 flex-wrap mt-4">
+        <a href="#agendamento" class="btn btn-primary-neon">
+          <i class="fas fa-calendar-check me-2"></i>Agendar Agora
+        </a>
+        <a href="#galeria" class="btn btn-outline-neon">
+          <i class="fas fa-images me-2"></i>Ver Galeria
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ======================== ESTATÍSTICAS ======================== -->
+  <section id="estatisticas" class="stats-section">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-3">
+          <div class="stat-card" data-aos>
+            <i class="fas fa-heart stat-icon"></i>
+            <div class="stat-number" data-target="500">0</div>
+            <div class="stat-label">Clientes Atendidas</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card" data-aos>
+            <i class="fas fa-star stat-icon"></i>
+            <div class="stat-number" data-target="5">0</div>
+            <div class="stat-label">Anos de Experiência</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card" data-aos>
+            <i class="fas fa-paint-brush stat-icon"></i>
+            <div class="stat-number" data-target="200">0</div>
+            <div class="stat-label">Designs Exclusivos</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card" data-aos>
+            <i class="fas fa-award stat-icon"></i>
+            <div class="stat-number" data-float="5.0">0</div>
+            <div class="stat-label">Avaliação Média ★</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAVE DIVIDER -->
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#111111"/></svg>
+  </div>
+
+  <!-- ======================== SERVIÇOS ======================== -->
+  <section id="servicos" class="services-section">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos>
+        <h2 class="section-title">Nossos Serviços</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Escolha o serviço ideal para você e agende seu horário</p>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4" data-aos>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-hand-sparkles"></i></div>
+            <h3 class="service-name">Manicure Simples</h3>
+            <p class="service-desc">Cuidado completo das unhas com esmaltação tradicional e acabamento impecável.</p>
+            <div class="service-price">A partir de <strong>R$ 35,00</strong></div>
+            <button class="btn btn-service" onclick="selectService('Manicure Simples')">
+              <i class="fas fa-calendar-plus me-1"></i> Agendar este serviço
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos>
+          <div class="service-card featured">
+            <div class="service-badge">Mais Popular</div>
+            <div class="service-icon"><i class="fas fa-gem"></i></div>
+            <h3 class="service-name">Manicure em Gel</h3>
+            <p class="service-desc">Durabilidade e brilho incomparáveis com gel de alta qualidade. Dura até 3 semanas.</p>
+            <div class="service-price">A partir de <strong>R$ 80,00</strong></div>
+            <button class="btn btn-service" onclick="selectService('Manicure em Gel')">
+              <i class="fas fa-calendar-plus me-1"></i> Agendar este serviço
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-magic"></i></div>
+            <h3 class="service-name">Nail Art Personalizada</h3>
+            <p class="service-desc">Designs exclusivos e personalizados para expressar sua personalidade única.</p>
+            <div class="service-price">A partir de <strong>R$ 120,00</strong></div>
+            <button class="btn btn-service" onclick="selectService('Nail Art Personalizada')">
+              <i class="fas fa-calendar-plus me-1"></i> Agendar este serviço
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+            <h3 class="service-name">Unhas Acrílicas</h3>
+            <p class="service-desc">Extensões acrílicas resistentes com formato e comprimento personalizados.</p>
+            <div class="service-price">A partir de <strong>R$ 150,00</strong></div>
+            <button class="btn btn-service" onclick="selectService('Unhas Acrílicas')">
+              <i class="fas fa-calendar-plus me-1"></i> Agendar este serviço
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-th-large"></i></div>
+            <h3 class="service-name">Press-On Nails</h3>
+            <p class="service-desc">Unhas postiças personalizadas de alta qualidade, reutilizáveis e fáceis de aplicar.</p>
+            <div class="service-price">A partir de <strong>R$ 90,00</strong></div>
+            <button class="btn btn-service" onclick="selectService('Press-On Nails')">
+              <i class="fas fa-calendar-plus me-1"></i> Agendar este serviço
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-spa"></i></div>
+            <h3 class="service-name">Pedicure Completa</h3>
+            <p class="service-desc">Cuidado completo dos pés com esfoliação, hidratação e esmaltação.</p>
+            <div class="service-price">A partir de <strong>R$ 65,00</strong></div>
+            <button class="btn btn-service" onclick="selectService('Pedicure Completa')">
+              <i class="fas fa-calendar-plus me-1"></i> Agendar este serviço
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WAVE DIVIDER -->
+  <div class="wave-divider wave-flip" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,0 1080,60 1440,30 L1440,0 L0,0 Z" fill="#0d0d0d"/></svg>
+  </div>
+
+  <!-- ======================== GALERIA ======================== -->
+  <section id="galeria" class="gallery-section">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos>
+        <h2 class="section-title">Nossos Trabalhos</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Cada detalhe pensado com amor e precisão</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="gallery-filters d-flex justify-content-center gap-2 flex-wrap mb-4">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="nail-art">Nail Art</button>
+        <button class="filter-btn" data-filter="gel">Gel</button>
+        <button class="filter-btn" data-filter="acrilico">Acrílico</button>
+        <button class="filter-btn" data-filter="pedicure">Pedicure</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-category="nail-art" data-title="Gothic Roses">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #1a001a 30%, #c800ff 70%, #ff2d78 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Gothic Roses</span></div>
+        </div>
+        <div class="gallery-item" data-category="gel" data-title="Neon Fusion Gel">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #0d0d0d 20%, #ff1a1a 60%, #ff2d78 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Neon Fusion Gel</span></div>
+        </div>
+        <div class="gallery-item" data-category="acrilico" data-title="Dark Crystal">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #120025 30%, #39ff14 60%, #1a0a1a 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Dark Crystal</span></div>
+        </div>
+        <div class="gallery-item" data-category="nail-art" data-title="Punk Flames">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #1a0000 20%, #ff1a1a 50%, #c800ff 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Punk Flames</span></div>
+        </div>
+        <div class="gallery-item" data-category="gel" data-title="Violet Dreams">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #0d0020 30%, #9900cc 60%, #ff2d78 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Violet Dreams</span></div>
+        </div>
+        <div class="gallery-item" data-category="pedicure" data-title="Midnight Pedicure">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #0d0d0d 20%, #cc0000 55%, #1a0a1a 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Midnight Pedicure</span></div>
+        </div>
+        <div class="gallery-item" data-category="acrilico" data-title="Electric Coffin">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #001a10 30%, #39ff14 55%, #0d0d0d 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Electric Coffin</span></div>
+        </div>
+        <div class="gallery-item" data-category="nail-art" data-title="Crimson Web">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #1a001a 20%, #ff2d78 50%, #c800ff 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Crimson Web</span></div>
+        </div>
+        <div class="gallery-item" data-category="gel" data-title="Shadow Gel">
+          <div class="gallery-img" style="background: linear-gradient(135deg, #0d0d0d 25%, #c800ff 55%, #39ff14 100%)"></div>
+          <div class="gallery-overlay"><i class="fas fa-search-plus"></i><span>Shadow Gel</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">&times;</button>
+      <div class="lightbox-content">
+        <div class="lightbox-img" id="lightboxImg"></div>
+        <div class="lightbox-title" id="lightboxTitle"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SOBRE ======================== -->
+  <section id="sobre" class="about-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-aos>
+          <div class="about-img-wrap">
+            <div class="about-img-placeholder">
+              <div class="about-img-inner">
+                <i class="fas fa-hands"></i>
+                <span>Kessya</span>
+              </div>
+            </div>
+            <div class="about-cert-badge">
+              <i class="fas fa-certificate"></i> Profissional Certificada
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos>
+          <h2 class="section-title text-start">Sobre Mim</h2>
+          <div class="section-line" style="margin: 0 0 1.5rem;"></div>
+          <p class="about-text">
+            Olá! Sou <strong>Kessya</strong>, nail artist apaixonada pela arte de transformar unhas em verdadeiras obras de arte. Com mais de 5 anos de experiência, me especializei em nail art exclusiva, combinando técnica, criatividade e muito amor em cada detalhe.
+          </p>
+          <p class="about-text">
+            Formada por cursos nacionais e internacionais, trabalho com produtos premium de alta durabilidade para garantir resultados que duram e encantam.
+          </p>
+          <ul class="about-features list-unstyled mt-3">
+            <li><i class="fas fa-check-circle"></i> Produtos 100% importados e premium</li>
+            <li><i class="fas fa-check-circle"></i> Atendimento individualizado e exclusivo</li>
+            <li><i class="fas fa-check-circle"></i> Higiene e esterilização rigorosa</li>
+            <li><i class="fas fa-check-circle"></i> Designs personalizados por encomenda</li>
+            <li><i class="fas fa-check-circle"></i> Ambiente aconchegante e exclusivo</li>
+          </ul>
+          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn btn-whatsapp mt-4">
+            <i class="fab fa-whatsapp me-2"></i> Fale Comigo no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== DEPOIMENTOS ======================== -->
+  <section id="depoimentos" class="testimonials-section">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos>
+        <h2 class="section-title">O Que Minhas Clientes Dizem</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="testimonial-card">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #c800ff, #ff2d78)">A</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Kessya é incrível! Minhas unhas ficaram perfeitas, o design foi exatamente o que eu queria. Super indico para todas!"</p>
+              <div class="testimonial-name">Ana Beatriz</div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #ff1a1a, #c800ff)">J</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Ambiente lindo, atendimento impecável. As unhas duraram mais de 3 semanas sem nenhuma lasca. Amei demais!"</p>
+              <div class="testimonial-name">Juliana Souza</div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #39ff14, #c800ff)">M</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"A nail art que ela fez foi um show! Recebi elogios de todo mundo. É uma artista mesmo. Voltarei sempre!"</p>
+              <div class="testimonial-name">Mariana Lima</div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #ff2d78, #ff1a1a)">C</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Atenção aos detalhes absurda! Pedi um design bem específico e ela superou minhas expectativas. Profissional demais!"</p>
+              <div class="testimonial-name">Camila Ferreira</div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-card">
+              <div class="testimonial-avatar" style="background: linear-gradient(135deg, #c800ff, #39ff14)">P</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Fiz as press-on e ficaram maravilhosas! Pareciam naturais e duraram muito. A Kessya é talentosíssima!"</p>
+              <div class="testimonial-name">Patrícia Rocha</div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev carousel-ctrl" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Anterior">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-control-next carousel-ctrl" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Próximo">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WAVE DIVIDER -->
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#111111"/></svg>
+  </div>
+
+  <!-- ======================== AGENDAMENTO ======================== -->
+  <section id="agendamento" class="booking-section">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos>
+        <h2 class="section-title">Agende Seu Horário</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Preencha o formulário e receba confirmação via WhatsApp</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="booking-card" data-aos>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="clientName" class="form-label">Nome Completo *</label>
+                <input type="text" id="clientName" class="form-control neon-input" placeholder="Seu nome completo" required />
+              </div>
+              <div class="col-md-6">
+                <label for="clientPhone" class="form-label">WhatsApp *</label>
+                <input type="tel" id="clientPhone" class="form-control neon-input" placeholder="(00) 00000-0000" required />
+              </div>
+              <div class="col-md-6">
+                <label for="serviceSelect" class="form-label">Serviço Desejado *</label>
+                <select id="serviceSelect" class="form-select neon-input" required>
+                  <option value="" disabled selected>Selecione um serviço</option>
+                  <option value="Manicure Simples">Manicure Simples</option>
+                  <option value="Manicure em Gel">Manicure em Gel</option>
+                  <option value="Nail Art Personalizada">Nail Art Personalizada</option>
+                  <option value="Unhas Acrílicas">Unhas Acrílicas</option>
+                  <option value="Press-On Nails">Press-On Nails</option>
+                  <option value="Pedicure Completa">Pedicure Completa</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="appointmentDate" class="form-label">Data Preferida *</label>
+                <input type="date" id="appointmentDate" class="form-control neon-input" required />
+              </div>
+              <div class="col-md-6">
+                <label for="appointmentTime" class="form-label">Horário Preferido *</label>
+                <select id="appointmentTime" class="form-select neon-input" required>
+                  <option value="" disabled selected>Selecione um horário</option>
+                  <option>09:00</option>
+                  <option>10:00</option>
+                  <option>11:00</option>
+                  <option>13:00</option>
+                  <option>14:00</option>
+                  <option>15:00</option>
+                  <option>16:00</option>
+                  <option>17:00</option>
+                  <option>18:00</option>
+                </select>
+              </div>
+              <div class="col-md-6 d-flex align-items-end">
+                <div class="w-100">
+                  <label class="form-label text-muted" style="font-size:0.8rem;">* Campos obrigatórios</label>
+                  <div class="booking-note">
+                    <i class="fas fa-info-circle me-1"></i>
+                    Confirmação via WhatsApp em até 24h.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="clientNotes" class="form-label">Referência / Informações Adicionais</label>
+                <textarea id="clientNotes" class="form-control neon-input" rows="3" placeholder="Descreva o design que você quer, envie referências, ou deixe observações importantes..."></textarea>
+              </div>
+              <div class="col-12 mt-2">
+                <div id="formError" class="form-error" role="alert" aria-live="polite"></div>
+                <button type="button" id="bookingBtn" class="btn btn-whatsapp-book w-100" onclick="submitBooking()">
+                  <i class="fab fa-whatsapp me-2"></i> Confirmar Agendamento via WhatsApp
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FAQ ======================== -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos>
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion neon-accordion" id="faqAccordion">
+
+            <div class="accordion-item neon-acc-item" data-aos>
+              <h3 class="accordion-header">
+                <button class="accordion-button neon-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false">
+                  Quanto tempo dura o atendimento?
+                </button>
+              </h3>
+              <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body neon-acc-body">
+                  O tempo varia conforme o serviço: manicure simples (~45 min), gel (~1h30), nail art personalizada (~2-3h) e acrílicas (~2h). Ao agendar, você receberá a estimativa exata.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item neon-acc-item" data-aos>
+              <h3 class="accordion-header">
+                <button class="accordion-button neon-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+                  Qual a durabilidade das unhas em gel?
+                </button>
+              </h3>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body neon-acc-body">
+                  Com os produtos premium que utilizamos, o gel dura em média de 3 a 4 semanas sem lascar. A durabilidade depende também dos cuidados que você tiver em casa.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item neon-acc-item" data-aos>
+              <h3 class="accordion-header">
+                <button class="accordion-button neon-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false">
+                  Preciso agendar com antecedência?
+                </button>
+              </h3>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body neon-acc-body">
+                  Sim! Recomendo agendar com pelo menos 2-3 dias de antecedência para garantir seu horário. Para nail art elaborada, prefira agendar com 1 semana.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item neon-acc-item" data-aos>
+              <h3 class="accordion-header">
+                <button class="accordion-button neon-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false">
+                  Vocês atendem em domicílio?
+                </button>
+              </h3>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body neon-acc-body">
+                  Atendemos em domicílio para grupos a partir de 3 pessoas em regiões selecionadas. Entre em contato pelo WhatsApp para verificar disponibilidade e taxas de deslocamento.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item neon-acc-item" data-aos>
+              <h3 class="accordion-header">
+                <button class="accordion-button neon-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false">
+                  Como faço para cancelar ou remarcar?
+                </button>
+              </h3>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body neon-acc-body">
+                  Cancele ou remarque com pelo menos 24 horas de antecedência pelo WhatsApp, sem custo. Cancelamentos com menos de 24h podem ter taxa de 50% do valor do serviço.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item neon-acc-item" data-aos>
+              <h3 class="accordion-header">
+                <button class="accordion-button neon-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false">
+                  Quais formas de pagamento são aceitas?
+                </button>
+              </h3>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body neon-acc-body">
+                  Aceitamos Pix (com desconto de 5%), dinheiro, cartão de débito e crédito (até 3x sem juros). O pagamento é realizado ao final do atendimento.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="site-footer">
+    <div class="footer-neon-line" aria-hidden="true"></div>
+    <div class="container">
+      <div class="row g-4 pt-5 pb-4">
+
+        <div class="col-lg-4">
+          <div class="footer-brand">Kessya Nails</div>
+          <p class="footer-slogan">Transformando unhas em obras de arte desde 2019.</p>
+          <div class="footer-socials mt-3">
+            <a href="#" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Pinterest" class="social-icon"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <h4 class="footer-heading">Links Rápidos</h4>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#agendamento">Agendamento</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <h4 class="footer-heading">Horário de Funcionamento</h4>
+          <ul class="footer-hours list-unstyled">
+            <li><span>Seg – Sex</span><span>09h – 19h</span></li>
+            <li><span>Sábado</span><span>09h – 17h</span></li>
+            <li class="closed"><span>Domingo</span><span>Fechado</span></li>
+          </ul>
+          <p class="footer-address mt-3">
+            <i class="fas fa-map-marker-alt me-1" style="color:var(--neon-purple)"></i>
+            Rua das Flores, 123 — Centro<br>Sua Cidade, Brasil
+          </p>
+        </div>
+
+      </div>
+      <div class="footer-bottom text-center">
+        <p>© 2025 Kessya Nails · Todos os direitos reservados · Feito com <span style="color:var(--neon-pink)">♥</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão WhatsApp Flutuante -->
+  <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chamar no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
