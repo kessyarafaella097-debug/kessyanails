@@ -3,7 +3,7 @@
    ============================================= */
 
 // ── CONFIGURAÇÃO ──────────────────────────────
-const WHATSAPP_NUMBER = '5500000000000'; // Substitua pelo número real (com código do país, sem + ou espaços)
+const WHATSAPP_NUMBER = '5583991740417'; // Substitua pelo número real (com código do país, sem + ou espaços)
 
 // ── LOADING SCREEN ────────────────────────────
 window.addEventListener('load', () => {
@@ -263,7 +263,7 @@ function submitBooking() {
 
   // Monta mensagem formatada
   const msg =
-`🌸 *NOVO AGENDAMENTO — KESSYA NAILS* 🌸
+`🌸 *NOVO AGENDAMENTO — KESSYA LIMA.NAILS* 🌸
 
 👤 *Nome:* ${name}
 📱 *WhatsApp:* ${phone}
@@ -280,7 +280,7 @@ ${obsText}
 Aguardo sua confirmação! 💜`;
 
   const encoded = encodeURIComponent(msg);
-  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+  const url = `https://wa.me/${5583991740417}?text=${encoded}`;
 
   window.open(url, '_blank', 'noopener,noreferrer');
 }
